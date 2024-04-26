@@ -10,6 +10,9 @@ echo "--- :evergreen_tree: Build job environment"
 
 env
 
+echo "Checking CPU cores"
+lscpu
+
 
 echo "+++ :hammer: Example tests"
 
